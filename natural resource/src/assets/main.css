@@ -1,0 +1,22 @@
+@import './base.css';
+#app{
+    height: 100%;
+}
+
+.flex_between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.el-sub-menu__title{
+    padding:0 1.8rem !important;
+    background-color: #172033 !important;
+    margin-bottom: .5rem !important;
+}
+.el-popper.is-light{
+    border: none !important;
+}
+.el-menu--popup{
+    background-color: #0a1225 !important;
+    padding: 0 !important;
+}
